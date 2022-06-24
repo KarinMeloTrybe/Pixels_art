@@ -20,3 +20,19 @@
 .color4 {
   background-color: #EACDC2;
 }
+
+#pixel-board{
+display: table;
+}
+
+.grade{
+ display: table-row;   
+}
+
+.pixel{
+ width: 40px;
+ height: 40px;
+ border: 1px solid #000;  
+ background-color: white; 
+ display: inline-flex;
+}
