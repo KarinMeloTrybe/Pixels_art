@@ -65,7 +65,6 @@ function setSize() {
 //12
 function corAleatoria() {
   const randomBetween = (min, max) => min + Math.floor(Math.random() * (max - min + 1));
-  document.documentElement.style.setProperty('--color1', `rgb(${randomBetween(0, 255)}, ${randomBetween(0, 255)}, ${randomBetween(0, 255)})`)
   document.documentElement.style.setProperty('--color2', `rgb(${randomBetween(0, 255)}, ${randomBetween(0, 255)}, ${randomBetween(0, 255)})`)
   document.documentElement.style.setProperty('--color3', `rgb(${randomBetween(0, 255)}, ${randomBetween(0, 255)}, ${randomBetween(0, 255)})`)
   document.documentElement.style.setProperty('--color4', `rgb(${randomBetween(0, 255)}, ${randomBetween(0, 255)}, ${randomBetween(0, 255)})`)

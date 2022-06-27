@@ -1,8 +1,12 @@
 html {
-  --color1: #000;
-  --color2: #774C60;
-  --color3: #B75D69;
-  --color4: #EACDC2;
+
+  --color1: rgb(0, 0, 0);
+
+  --color2: rgb(118, 76, 95);
+
+  --color3: rgb(182, 93, 105);
+  
+  --color4: rgb(234, 206, 194);
 }
 
 #pixel-board {
