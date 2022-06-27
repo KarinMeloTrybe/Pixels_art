@@ -1,3 +1,26 @@
+html {
+  --color1: #000;
+  --color2: #774C60;
+  --color3: #B75D69;
+  --color4: #EACDC2;
+}
+
+#pixel-board {
+  display: table;
+}
+
+.grade {
+  display: table-row;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  background-color: white;
+  display: inline-flex;
+}
+
 .color {
   border: 1px solid black;
   width: 40px;
@@ -6,33 +29,17 @@
 }
 
 .color1 {
-  background-color: #000;
+  background-color: var(--color1);
 }
 
 .color2 {
-  background-color: #774C60;
+  background-color: var(--color2);
 }
 
 .color3 {
-  background-color: #B75D69;
+  background-color: var(--color3);
 }
 
 .color4 {
-  background-color: #EACDC2;
-}
-
-#pixel-board{
-display: table;
-}
-
-.grade{
- display: table-row;   
-}
-
-.pixel{
- width: 40px;
- height: 40px;
- border: 1px solid #000;  
- background-color: white; 
- display: inline-flex;
+  background-color: var(--color4);
 }
