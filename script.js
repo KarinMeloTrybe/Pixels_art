@@ -73,7 +73,7 @@ function corAleatoria() {
 
 
 window.onload = () => {
-    selectColor()
-    paintColor()
-    // corAleatoria()
+  selectColor()
+  paintColor()
+  corAleatoria()
 }
